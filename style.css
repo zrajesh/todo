@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #070606;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    padding: 80px 200px;
+}
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    font-size: 51px;
+    font-weight: bolder;
+}
+
+.brand-light {
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+.add-link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 36px;
+}
+
+.add-icon {
+    color: #4287e9;
+    margin-right: 5px;
+    cursor: pointer;
+}
+/* Task Container */
+.task-container {
+    margin-top: 80px;
+}
+
+.empty-message {
+    font-size: 30px;
+}
+
