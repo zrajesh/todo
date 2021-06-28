@@ -44,3 +44,13 @@ body {
     text-decoration: none;
     color: #FFF;
 }
+
+@media screen and (max-width: 900px) {
+    .add-popup {
+        padding: 5px 60px;
+        width: 180px;
+    }
+    .title-field {
+        width: 200px;
+    }
+}

@@ -37,6 +37,20 @@ body {
     margin-right: 5px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        padding: 80px 40px;
+    }
+    .header {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .header i {
+        margin-top: 50px;
+    }
+}
+
 /* Task Container */
 .task-container {
     margin-top: 80px;
