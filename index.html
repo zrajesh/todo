@@ -6,20 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>ToDo</title>
 </head>
 <body>
+    <div id="blur">
     <div class="header">
         <h1 class="brand"><strong>Tasks</strong><span class="brand-light">List</span></h1>
         <span>
-            <a href="add.html" class="add-link"><i class="add-icon fas fa-plus-circle"></i>Add Item</a>
+            <a href="#" class="add-link"><i class="add-icon fas fa-plus-circle"></i>Add Item</a>
         </span>
     </div>
     <div class="task-container">
+        <!-- Task Card -->
+        <div class="card-container">
+        </div>
+        <!-- Empty message -->
         <p class="empty-message">No Items in the todo list</p>
     </div>
+    </div>
+    <!-- Add card popup -->
+    <div class="add-popup">
+        <p>Add New Card</p>
+        <input class="title-field" type="text">
+        <button id="addCard" class="button"><a href="#">Add</a></button>
+        <button class="button popup-close">Close</button>
+    </div>
+
+    <!-- Add list popup -->
+    <div class="add-list-popup">
+        <p>Add New List</p>
+        <input class="list-field" type="text">
+        <button id="addList" class="button"><a href="#">Add</a></button>
+        <button class="button list-popup-close">Close</button>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
